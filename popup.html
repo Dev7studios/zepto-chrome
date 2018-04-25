@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/popup.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://zepl.ink" target="_blank">
+                    Zepto
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="popup">
+        <div class="form-group mb-1">
+            <label for="longurl">Long URL:</label>
+            <input type="text" id="longurl" class="form-control" readonly>
+        </div>
+        <label>Zepto Short Link:</label>
+        <div class="card text-white bg-secondary text-center">
+            <div class="card-body">
+                <span id="shortlink"></span>
+            </div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

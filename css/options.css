@@ -1,0 +1,6 @@
+.header {
+    background: #C33764;
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);
+    background: linear-gradient(to right, #1D2671, #C33764);
+    box-shadow: inset 0 -15px 30px rgba(0, 0, 0, 0.1);
+}
