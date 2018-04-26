@@ -1,7 +1,8 @@
 {
-    "name": "Zepto",
     "version": "0.1.0",
-    "description": "A simple, secure and private link shortener",
+    "name": "Zepto Link Shortener",
+    "short_name": "Zepto",
+    "description": "A simple, secure and fast link shortener",
     "author": "Dev7studios",
     "homepage_url": "https://zepl.ink",
     "permissions": ["tabs", "storage", "https://zepl.ink/"],
